@@ -15,10 +15,51 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#project">Projects</a></li>
-                <li><a href="#contact">Contact us</a></li>
+                <li><a href="#contact">Contact me</a></li>
             </ul>
         </div>
     </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Shubham Yadav</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact me</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile3.png" alt="shubham yadav pic"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Shubham yadav</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download Resume</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact me</button>
+            </div>
+            <div id="social-container">
+    
+                <img src="./assets/linkedin.png" alt="my LinkedIn profile" class="icon" 
+                onclick="window.open('https://www.linkedin.com/in/shubham-yadav723/', '_blank')"/>
+                <img src="./assets/github.png" alt="my github profile" class="icon" 
+                onclick="window.open('https://github.com/Shubham-yadav-723', '_blank')"/>
+           
+            </div>
+        </div>
+
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
