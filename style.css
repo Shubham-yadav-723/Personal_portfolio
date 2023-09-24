@@ -75,6 +75,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  z-index: 2;
 }
 
 .hamburger-icon {
@@ -266,19 +267,17 @@ section{
 
 #about{
   position: relative;
+ padding-top: 2rem;
 }
 
-.about-container{
+
+.about-containers{
   gap: 0.7rem;
-  margin-bottom: 2rem;
-  margin-top: 5rem;
-
-}
-.about-containers {
+  margin-bottom: 0.1rem;
   display: flex; 
   justify-content: space-around; 
-  gap: 2rem;
-  padding-top: 2rem;
+  
+  padding-top: 2rem; 
 }
 
 .about-details-container{
@@ -329,7 +328,7 @@ section{
 
 #experience{
   position: relative;
-  padding-top: 12rem;
+  padding-top: 7rem;
 }
 
 .experience-sub-title{
@@ -351,7 +350,7 @@ section{
 
 .article-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   gap: 1rem; 
   justify-content: space-around; 
   
@@ -378,7 +377,7 @@ article .icon {
   gap: 2.5rem;
   
   justify-content: space-between;
-  margin-top: 3rem;
+  margin-top: 0.7rem;
 }
 
 
@@ -400,6 +399,7 @@ article .icon {
 
 #project{
   position: relative;
+  margin-top: 4rem;
 }
 
 .color-container{
@@ -430,7 +430,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  margin-top: 5rem;
 }
 
 .contact-info-upper-container{
@@ -463,4 +463,15 @@ article .icon {
 
 .email-icon{
   height: 2rem;
+}
+
+/*footer*/
+
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p{
+  text-align: center;
 }
